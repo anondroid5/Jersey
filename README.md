@@ -20,7 +20,7 @@ Restful Resources can be changed by utilizing web.xml
 ###Annotation
 @PATH
 
-@GET,@PUT,@POST,@DELETE and @HEAD (HTTP Methods)
+####@GET,@PUT,@POST,@DELETE and @HEAD (HTTP Methods)
 
 @GET, @PUT, @POST, @DELETE and @HEAD are resource method designator annotations defined by JAX-RS and which correspond to the similarly named HTTP methods. In the example above, the annotated Java method will process HTTP GET requests. The behavior of a resource is determined by which of the HTTP methods the resource is responding to
 
