@@ -3,7 +3,7 @@ RESTful Web Services
 
 REST Framework
 
-ROA(Resource-oriented architecture)
+ROA(Resource-Oriented Architecture)
 
 #Environment
 Java8 (jdk1.8.0_05)
