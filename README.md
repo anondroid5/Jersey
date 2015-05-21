@@ -15,8 +15,11 @@ This root is localhost:8080/Jersey/
 
 Restful Resources is available When you access localhost:8080/Jersey/api/
 
+Restful Resources can be changed by utilizing web.xml
+
 ###Annotation
-@Path
+@PATH
+@GET,@PUT,@POST,@DELETE and @HEAD (HTTP Methods)
 
 
 
