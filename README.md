@@ -19,6 +19,7 @@ Restful Resources can be changed by utilizing web.xml
 
 ###Annotation
 @PATH
+
 @GET,@PUT,@POST,@DELETE and @HEAD (HTTP Methods)
 
 
