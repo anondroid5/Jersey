@@ -21,8 +21,25 @@ Restful Resources can be changed by utilizing web.xml
 @PATH
 
 @GET,@PUT,@POST,@DELETE and @HEAD (HTTP Methods)
-
-
+```java
+@PUT
+public Response putContainer() {
+    System.out.println("PUT CONTAINER " + container);
+ 
+    URI uri = uriInfo.getAbsolutePath();
+    Container c = new Container(container, uri.toString());
+ 
+    Response r;
+    if (!MemoryStore.MS.hasContainer(c)) {
+        r = Response.created(uri).build();
+    } else {
+        r = Response.noContent().build();
+    }
+ 
+    MemoryStore.MS.createContainer(c);
+    return r;
+}
+```
 
 
 
