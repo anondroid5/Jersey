@@ -11,13 +11,13 @@ Apache Tomcat 7.0
 http://mvnrepository.com/
 
 #Details
-This root is localhost:8080/Jersey/
+This root is localhost:8080/Jersey/ .
 
-Restful Resources is available When you access localhost:8080/Jersey/api/
+Restful Resources is available When you access localhost:8080/Jersey/api/ .
 
-Restful Resources can be changed by utilizing web.xml
+Restful Resources can be changed by utilizing web.xml .
 
-more details
+More Details
 
 https://jersey.java.net/documentation/latest/jaxrs-resources.html#d0e2003
 
