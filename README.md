@@ -10,6 +10,18 @@ Apache Tomcat 7.0
 
 http://mvnrepository.com/
 
+#Details
+This root is localhost:8080/Jersey/
+
+Restful Resources is available When you access localhost:8080/Jersey/api/
+
+###Annotation
+@Path
+
+
+
+
+
 #Author
 Fumihiko Akagi
 
